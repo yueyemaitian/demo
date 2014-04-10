@@ -1,9 +1,5 @@
-var v = {"contents": {}, "resultCode": "UNKNOWN_ERROR",
-    "stackTrace": "Root cause of [java.lang.NullPointerException (null)]:
-    com.tmall.buy.common.process.price.AreaSalePriceApplyProcessor.preProcess(AreaSalePriceApplyProcessor.java:93)
-    com.tmall.buy.common.process.price.AreaSalePriceApplyProcessor.preProcess(AreaSalePriceApplyProcessor.java:31)
-    com.tmall.buy.common.process.DiscreteProcessorTemplate.bizProcess(DiscreteProcessorTemplate.java:43)
-    com.tmall.buy.common.process.DefaultProcessor.process(DefaultProcessor.java:142)
+    
+com.tmall.buy.common.process.DefaultProcessor.process(DefaultProcessor.java:142)
     com.tmall.buy.common.process.DefaultProcessor.process(DefaultProcessor.java:149)
     com.tmall.buy.common.process.DefaultProcessor.process(DefaultProcessor.java:149)
     com.tmall.buy.common.process.DefaultProcessor.process(DefaultProcessor.java:149)
@@ -141,3 +137,4 @@ var v2 = {"contents": {}, "resultCode": "UNKNOWN_ERROR", "stackTrace": "Root cau
     java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
     java.lang.Thread.run(Thread.java:662)
 ", "successful": false};
+hello world !
