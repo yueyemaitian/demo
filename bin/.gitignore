@@ -1,0 +1,6 @@
+#忽略idea元数据信息和build信息
+.settings/
+target/
+.idea/
+*.iml
+.DS_Store
