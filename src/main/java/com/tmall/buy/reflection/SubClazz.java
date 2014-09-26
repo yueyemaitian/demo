@@ -1,6 +1,7 @@
 package com.tmall.buy.reflection;
 @SuppressWarnings("unused")
 public class SubClazz extends SuperClazz {
+	@Override
 	public int getValue(){
 		return 2;
 	}

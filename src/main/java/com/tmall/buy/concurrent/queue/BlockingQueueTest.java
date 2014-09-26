@@ -3,15 +3,15 @@ package com.tmall.buy.concurrent.queue;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Random;
-import java.util.Spliterator;
+//import java.util.Spliterator;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
-import java.util.function.Predicate;
-import java.util.stream.Stream;
+//import java.util.function.Predicate;
+//import java.util.stream.Stream;
 
 /**
  * @author tianmai.fh
@@ -74,7 +74,8 @@ public class BlockingQueueTest {
         Condition fullCdt = writeLock.newCondition();
         Lock readLock = lock.writeLock();
 
-        public MyArrayBlockingQueue(int size) {
+        @SuppressWarnings("unchecked")
+		public MyArrayBlockingQueue(int size) {
             this.capacity = size;
             values = (T[]) new Object[size];
         }
@@ -228,35 +229,35 @@ public class BlockingQueueTest {
         public int drainTo(Collection<? super T> c, int maxElements) {
             return 0;
         }
-
-		@Override
-		public boolean removeIf(Predicate<? super T> filter) {
-			// TODO Auto-generated method stub
-			return false;
-		}
-
-		@Override
-		public Spliterator<T> spliterator() {
-			// TODO Auto-generated method stub
-			return null;
-		}
-
-		@Override
-		public Stream<T> stream() {
-			// TODO Auto-generated method stub
-			return null;
-		}
-
-		@Override
-		public Stream<T> parallelStream() {
-			// TODO Auto-generated method stub
-			return null;
-		}
-
-		@Override
-		public void forEach(java.util.function.Consumer<? super T> action) {
-			// TODO Auto-generated method stub
-			
-		}
+//
+//		@Override
+//		public boolean removeIf(Predicate<? super T> filter) {
+//			// TODO Auto-generated method stub
+//			return false;
+//		}
+//
+//		@Override
+//		public Spliterator<T> spliterator() {
+//			// TODO Auto-generated method stub
+//			return null;
+//		}
+//
+//		@Override
+//		public Stream<T> stream() {
+//			// TODO Auto-generated method stub
+//			return null;
+//		}
+//
+//		@Override
+//		public Stream<T> parallelStream() {
+//			// TODO Auto-generated method stub
+//			return null;
+//		}
+//
+//		@Override
+//		public void forEach(java.util.function.Consumer<? super T> action) {
+//			// TODO Auto-generated method stub
+//			
+//		}
     }
 }

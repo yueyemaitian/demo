@@ -1,8 +1,6 @@
 package com.tmall.buy.nio.demo;// $Id$
 
-import java.io.*;
 import java.nio.*;
-import java.nio.channels.*;
 
 public class TypesInByteBuffer
 {

@@ -7,7 +7,7 @@ package com.tmall.buy.init;
 public class MainClass {
     public static void main(String[] args){
 //        new ChildClass();
-        ChildClass.print();
+        SuperClass.print();
         System.out.println("======");
 //        SuperClass.print();
 //        System.out.println("======");
@@ -15,10 +15,10 @@ public class MainClass {
 //
 //
 //        System.out.println("======");
-        Child2Class.print();
+        SuperClass.print();
         System.out.println("======");
         SuperClass.print();
         System.out.println("======");
-        ChildClass.print();
+        SuperClass.print();
     }
 }

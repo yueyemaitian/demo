@@ -1,0 +1,20 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (/Users/fanhua/develop/openjdk-home/openjdk7/hotspot/src/share/vm/runtime/os.cpp:541), pid=4643, tid=20227
+#  fatal error: memory stomping error
+#
+# JRE version: OpenJDK Runtime Environment (7.0) (build 1.7.0-internal-fastdebug-fanhua_2014_03_29_16_11-b00)
+# Java VM: OpenJDK 64-Bit Server VM (24.80-b04-fastdebug mixed mode bsd-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007feeb301c000):  JavaThread "JDWP Transport Listener: dt_socket" daemon [_thread_in_vm, id=20227, stack(0x000000011def8000,0x000000011dff8000)]
+
+Stack: [0x000000011def8000,0x000000011dff8000],  sp=0x000000011dff7500,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)

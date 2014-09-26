@@ -13,15 +13,16 @@ import java.util.List;
  * @author tianmai.fh
  * @date 2014-03-17 19:19
  */
+@SuppressWarnings("unused")
 public class CmsGcTest {
 
     static List<Integer[]> longList = new ArrayList<Integer[]>();
-    static final int M_280_INT_SIZE = (int) (70 * 1024 * 1024);   //280M = 4byte * 70M
-    static final int M_112_INT_SIZE = (int) (24 * 1024 * 1024);   //112M = 4byte * 28M
+    static final int M_280_INT_SIZE = 70 * 1024 * 1024;   //280M = 4byte * 70M
+    static final int M_112_INT_SIZE = 24 * 1024 * 1024;   //112M = 4byte * 28M
 
     static void gcTest() throws InterruptedException {
 //        Thread.sleep(10000);
-        Object[] m280 = new Object[M_280_INT_SIZE];
+		Object[] m280 = new Object[M_280_INT_SIZE];
         m280 = null;
         for (int i = 0; i < 3; i++) {
             Integer[] m112 = new Integer[M_112_INT_SIZE];

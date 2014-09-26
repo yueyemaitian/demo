@@ -1,6 +1,5 @@
 package com.tmall.buy.structure;
 
-import sun.jvm.hotspot.gc_implementation.parallelScavenge.ParallelScavengeHeap;
 import sun.jvm.hotspot.gc_interface.CollectedHeap;
 import sun.jvm.hotspot.memory.ConcurrentMarkSweepGeneration;
 import sun.jvm.hotspot.memory.GenCollectedHeap;

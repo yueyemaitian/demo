@@ -5,8 +5,6 @@ import sun.jvm.hotspot.memory.Universe;
 import sun.jvm.hotspot.runtime.JavaThread;
 import sun.jvm.hotspot.runtime.JavaThreadState;
 import sun.jvm.hotspot.runtime.VM;
-import sun.jvm.hotspot.tools.Tool;
-
 import java.util.HashMap;
 import java.util.Map;
 

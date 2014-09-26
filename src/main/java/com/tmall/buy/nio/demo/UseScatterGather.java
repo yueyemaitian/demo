@@ -1,6 +1,5 @@
 package com.tmall.buy.nio.demo;// $Id$
 
-import java.io.*;
 import java.net.*;
 import java.nio.*;
 import java.nio.channels.*;

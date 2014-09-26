@@ -1,9 +1,6 @@
 package com.tmall.buy.monitor;
 
-import sun.jvm.hotspot.gc_implementation.g1.G1CollectedHeap;
-import sun.jvm.hotspot.gc_implementation.parallelScavenge.ParallelScavengeHeap;
 import sun.jvm.hotspot.gc_interface.CollectedHeap;
-import sun.jvm.hotspot.memory.GenCollectedHeap;
 import sun.jvm.hotspot.memory.Universe;
 import sun.jvm.hotspot.runtime.JavaThread;
 import sun.jvm.hotspot.runtime.JavaThreadState;

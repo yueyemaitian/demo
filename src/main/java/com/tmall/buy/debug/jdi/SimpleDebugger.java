@@ -76,7 +76,7 @@ public class SimpleDebugger {
 			eventSet = eventQueue.remove();
 			EventIterator eventIterator = eventSet.eventIterator();
 			while (eventIterator.hasNext()) {
-				Event event = (Event) eventIterator.next();
+				Event event = eventIterator.next();
 				execute(event);
 			}
 		}

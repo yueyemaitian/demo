@@ -9,6 +9,7 @@ public class ThreadTest {
 		ExecutorService executors = Executors.newFixedThreadPool(2);
 		for (int i = 0; i < 100; i++) {
 			executors.submit(new Runnable() {
+				@Override
 				public void run() {
 					System.out.println(Thread.currentThread());
 					throw new RuntimeException("");

@@ -34,7 +34,8 @@ public class QueueCompareTest {
             count.incrementAndGet();
         }
 
-        public String toString() {
+        @Override
+		public String toString() {
             return "millis: " + millis + "; count: " + count.get();
         }
     }
