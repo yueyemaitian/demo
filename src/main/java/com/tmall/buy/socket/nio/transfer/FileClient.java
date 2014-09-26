@@ -1,4 +1,4 @@
-package com.tmall.buy.nio.transfer;
+package com.tmall.buy.socket.nio.transfer;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,6 +16,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 import com.tmall.buy.common.CatchExceptionThreadPoolExecutor;
+
 
 public class FileClient {
 

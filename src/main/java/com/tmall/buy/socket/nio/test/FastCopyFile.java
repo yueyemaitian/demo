@@ -1,4 +1,4 @@
-package com.tmall.buy.nio;
+package com.tmall.buy.socket.nio.test;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

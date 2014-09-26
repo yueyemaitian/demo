@@ -1,4 +1,4 @@
-package com.tmall.buy.nio.demo;// $Id$
+package com.tmall.buy.socket.nio.demo;// $Id$
 
 import java.io.*;
 import java.net.*;

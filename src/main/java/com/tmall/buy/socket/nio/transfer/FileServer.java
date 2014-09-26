@@ -1,4 +1,4 @@
-package com.tmall.buy.nio.transfer;
+package com.tmall.buy.socket.nio.transfer;
 
 import java.io.File;
 import java.io.FileOutputStream;

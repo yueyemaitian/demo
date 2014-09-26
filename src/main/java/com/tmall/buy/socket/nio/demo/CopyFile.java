@@ -1,14 +1,16 @@
-package com.tmall.buy.nio.demo;// $Id$
+package com.tmall.buy.socket.nio.demo;
+
+// $Id$
 
 import java.io.*;
 import java.nio.*;
 import java.nio.channels.*;
 
-public class FastCopyFile
+public class CopyFile
 {
   static public void main( String args[] ) throws Exception {
     if (args.length<2) {
-      System.err.println( "Usage: java FastCopyFile infile outfile" );
+      System.err.println( "Usage: java CopyFile infile outfile" );
       System.exit( 1 );
     }
 
@@ -21,7 +23,7 @@ public class FastCopyFile
     FileChannel fcin = fin.getChannel();
     FileChannel fcout = fout.getChannel();
 
-    ByteBuffer buffer = ByteBuffer.allocateDirect( 1024 );
+    ByteBuffer buffer = ByteBuffer.allocate( 1024 );
 
     while (true) {
       buffer.clear();
